@@ -6,17 +6,17 @@ body {
   display: flex;
 }
 main {
-   display: flex;
-   margin: auto;
-   place-items: center;
+  display: flex;
+  place-items: center;
 }
 button {
   background-color: hsl(154, 59%, 51%);
   font-weight: 600;
   padding: 0.5em;
   border-radius: 5px;
-  color:  rgba(255, 255, 255, 1);
-  width: max-width;
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+  text-align: center;
 }
 * {
   font-family: "Poppins", sans-serif;
@@ -28,10 +28,10 @@ input {
   font-weight: 500;
   border-radius: 5px;
   padding: 0.5em;
-  color: hsl(249, 10%, 26%) ;
+  color: hsl(249, 10%, 26%);
   margin-top: 7.5px;
   margin-bottom: 7.5px;
-  width: 95%;
+  width: 100%;
 }
 mark {
   color: red;
@@ -49,24 +49,23 @@ mark {
 }
 .claim {
   border-radius: 10px;
-  padding: 2em;
+  padding: 1em;
   background-color: rgba(255, 255, 255, 1);
   margin-top: 20px;
   place-items: center;
 }
 .free {
-   background-color: transparent;
-   place-items: center;
-   padding: 3em;
-   color: rgba(255, 255, 255, 1);
-
+  background-color: transparent;
+  place-items: center;
+  padding: 3em;
+  color: rgba(255, 255, 255, 1);
 }
 .l {
-   width: 50%;
-   background-color: transparent;
+  width: 50%;
+  background-color: transparent;
 }
 .r {
-   width: 50%;
-   background-color: transparent;
-   padding: 2em;
+  width: 50%;
+  background-color: transparent;
+  padding: 2em;
 }
