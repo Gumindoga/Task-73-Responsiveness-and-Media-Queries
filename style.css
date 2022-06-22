@@ -4,19 +4,25 @@ body {
   font-size: 16px;
   height: 100vh;
   display: flex;
+  place-items: center;
 }
 main {
   display: flex;
+  margin: auto;
   place-items: center;
+  width: 70%;
 }
 button {
   background-color: hsl(154, 59%, 51%);
   font-weight: 600;
-  padding: 0.5em;
+  padding: 1em;
   border-radius: 5px;
   color: rgba(255, 255, 255, 1);
   width: 100%;
   text-align: center;
+  margin-top: 10px;
+  border-color: hsl(246, 25%, 77%);
+  border-style: solid;
 }
 * {
   font-family: "Poppins", sans-serif;
@@ -27,11 +33,14 @@ h1 {
 input {
   font-weight: 500;
   border-radius: 5px;
-  padding: 0.5em;
+  border-color: hsl(246, 25%, 77%);
+  border-style: solid;
+  padding: 1em;
   color: hsl(249, 10%, 26%);
   margin-top: 7.5px;
   margin-bottom: 7.5px;
-  width: 100%;
+  margin-right: 2em;
+  width: 93%;
 }
 mark {
   color: red;
@@ -45,14 +54,15 @@ mark {
   background-color: hsl(248, 32%, 49%);
   color: rgba(255, 255, 255, 1);
   border-radius: 5px;
-  padding: 0.75em;
+  padding: 1em;
+  text-align: center;
 }
 .claim {
   border-radius: 10px;
-  padding: 1em;
   background-color: rgba(255, 255, 255, 1);
   margin-top: 20px;
-  place-items: center;
+  padding: 2em;
+  text-align: center;
 }
 .free {
   background-color: transparent;
@@ -68,4 +78,38 @@ mark {
   width: 50%;
   background-color: transparent;
   padding: 2em;
+}
+form {
+  justify-content: space-around;
+}
+button:hover{
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("bg-intro-mobile.png");
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    place-items: center;
+    padding: 2em;
+  }
+  .l {
+    width: 100%;
+  }
+  .r {
+    width: 100%;
+  }
+  .free {
+    text-align: center;
+  }
+  .claim{
+    display: flex;
+  }
+  input {
+    width: 91%;
+  }
 }
