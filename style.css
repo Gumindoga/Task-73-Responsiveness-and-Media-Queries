@@ -53,16 +53,18 @@ mark {
 .offer {
   background-color: hsl(248, 32%, 49%);
   color: rgba(255, 255, 255, 1);
-  border-radius: 5px;
+  border-radius: 7.5px;
+  box-shadow: 0px 7.5px 1px 0px rgba(220, 101, 100, 1);
   padding: 1em;
   text-align: center;
 }
 .claim {
-  border-radius: 10px;
+  border-radius: 7.5px;
   background-color: rgba(255, 255, 255, 1);
   margin-top: 20px;
   padding: 2em;
   text-align: center;
+  box-shadow: 0px 7.5px 1px 0px rgba(220, 101, 100, 1);
 }
 .free {
   background-color: transparent;
