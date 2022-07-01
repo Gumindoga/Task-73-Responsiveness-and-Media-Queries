@@ -84,34 +84,6 @@ mark {
 form {
   justify-content: space-around;
 }
-button:hover{
+button:hover {
   cursor: pointer;
-}
-@media only screen and (max-width: 600px) {
-  body {
-    background-image: url("bg-intro-mobile.png");
-  }
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: auto;
-    place-items: center;
-    padding: 2em;
-  }
-  .l {
-    width: 100%;
-  }
-  .r {
-    width: 100%;
-  }
-  .free {
-    text-align: center;
-  }
-  .claim{
-    display: flex;
-  }
-  input {
-    width: 91%;
-  }
 }
